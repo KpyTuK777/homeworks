@@ -1,0 +1,140 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    background-image: url(../images/photo_04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    max-width: 830px;
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    background-color: #1d861800;
+    text-align: center;
+    border-radius: 25%;
+
+}
+
+.picture {
+    padding-top: 300px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    border-radius: 25%;
+}
+
+.button {
+    padding-top: 200px;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    max-width: 200px;
+    width: 100%;
+    margin-top: 100px;
+    color: #fff;
+    padding-left: 60px;
+
+}
+
+.push:not(:last-child) {
+    margin-bottom: 100px;
+    vertical-align: middle;
+    padding-top: 40px;
+}
+
+.push {
+    text-transform: uppercase;
+    background-color: #1E8618;
+    min-height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 25%;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+.push:hover {
+    color: yellow;
+    box-shadow: none;
+    font-size: 24px
+}
+
+.push:active {
+    color: blue;
+}
+
+.push:focus {
+    color: red;
+}
+
+.push:visited {
+    color: gray;
+}
+
+.page_2 {
+    margin: 0 auto;
+    color: #1E8618;
+    max-width: 1230px;
+    width: 100%;
+}
+
+.wrapper_2 {
+    min-height: 100%;
+    overflow: clip;
+    background-image: url(../images/photo_02.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ask,
+.answer {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.answer:hover {
+    color: yellow;
+}
+
+.answer:active {
+    color: blue;
+}
+
+.wrapper_3 {
+    min-height: 100%;
+    overflow: clip;
+    background-image: url(../images/photo_05.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.page_3 {
+    padding-top: 500px;
+    color: aqua;
+}
+
+.wrapper_4 {
+    min-height: 100%;
+    overflow: clip;
+    background-image: url(../images/photo_03.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.page_4 {
+    color: goldenrod;
+    padding: 80px 0 0 80px;
+}
